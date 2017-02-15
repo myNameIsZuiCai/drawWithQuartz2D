@@ -15,6 +15,8 @@
 		BDBDAF1A1E30927F00E9769E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBDAF181E30927F00E9769E /* LaunchScreen.storyboard */; };
 		BDBDAF251E30927F00E9769E /* Quartz2D___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBDAF241E30927F00E9769E /* Quartz2D___Tests.m */; };
 		BDBDAF301E30927F00E9769E /* Quartz2D___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBDAF2F1E30927F00E9769E /* Quartz2D___UITests.m */; };
+		BDBDAF3F1E30988200E9769E /* lineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBDAF3E1E30988200E9769E /* lineView.m */; };
+		BDBDAF421E30A4E600E9769E /* shapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBDAF411E30A4E600E9769E /* shapeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		BDBDAF2B1E30927F00E9769E /* Quartz2D画形状UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quartz2D画形状UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBDAF2F1E30927F00E9769E /* Quartz2D___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Quartz2D___UITests.m"; sourceTree = "<group>"; };
 		BDBDAF311E30927F00E9769E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBDAF3D1E30988200E9769E /* lineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lineView.h; sourceTree = "<group>"; };
+		BDBDAF3E1E30988200E9769E /* lineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lineView.m; sourceTree = "<group>"; };
+		BDBDAF401E30A4E600E9769E /* shapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapeView.h; sourceTree = "<group>"; };
+		BDBDAF411E30A4E600E9769E /* shapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shapeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				BDBDAF181E30927F00E9769E /* LaunchScreen.storyboard */,
 				BDBDAF1B1E30927F00E9769E /* Info.plist */,
 				BDBDAF0A1E30927E00E9769E /* Supporting Files */,
+				BDBDAF3D1E30988200E9769E /* lineView.h */,
+				BDBDAF3E1E30988200E9769E /* lineView.m */,
+				BDBDAF401E30A4E600E9769E /* shapeView.h */,
+				BDBDAF411E30A4E600E9769E /* shapeView.m */,
 			);
 			path = "Quartz2D画形状";
 			sourceTree = "<group>";
@@ -273,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBDAF3F1E30988200E9769E /* lineView.m in Sources */,
 				BDBDAF121E30927F00E9769E /* ViewController.m in Sources */,
+				BDBDAF421E30A4E600E9769E /* shapeView.m in Sources */,
 				BDBDAF0F1E30927F00E9769E /* AppDelegate.m in Sources */,
 				BDBDAF0C1E30927E00E9769E /* main.m in Sources */,
 			);
